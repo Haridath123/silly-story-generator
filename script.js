@@ -12,7 +12,7 @@ function generateStory() {
   const randomObject = objects[Math.floor(Math.random() * objects.length)];
   const randomAction = actions[Math.floor(Math.random() * actions.length)];
 
-  const story = ${userName} went to the ${randomPlace} and found a ${randomObject}. They ${randomAction} all the way home!;
+  const story = `${userName} went to the ${randomPlace} and found a ${randomObject}. They ${randomAction} all the way home!`;
   document.getElementById("storyOutput").innerText = story;
 }
 
